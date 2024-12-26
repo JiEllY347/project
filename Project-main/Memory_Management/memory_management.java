@@ -21,8 +21,8 @@ public class memory_management {
 
     public static void main(String[] args) {
         // Memory Allocation
-        Person person1 = new Person("Marvin", 21);
-        Person person2 = new Person("Bonalos", 20);
+        Person person1 = new Person("Jielly", 18);
+        Person person2 = new Person("Angel", 19);
 
         // Displaying object details
         person1.display();
