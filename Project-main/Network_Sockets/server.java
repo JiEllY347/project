@@ -23,7 +23,7 @@ public class server {
             System.out.println("Received from client: " + messageFromClient);
 
             // Send a response to the client
-            String response = "Hello from Server!";
+            String response = "Hello my lady!";
             output.println(response);
 
             // Close resources
