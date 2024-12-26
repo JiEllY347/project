@@ -1,10 +1,10 @@
-// AngeJel class
-//values sa constructor sa AngeJel class
+// Bonalos class
+//values sa constructor sa Bonalos class
 abstract class Bonalos {
     String name;
     int age;
 
-    AngeJel(String name, int age) {
+    Bonalos(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -13,7 +13,7 @@ abstract class Bonalos {
     abstract void makeSound();
 }
 
-// Concrete class extending AngeJel class
+// Concrete class extending Bonalos class
 class Dog extends Bonalos {
 
     Dog(String name, int age) {
@@ -30,6 +30,6 @@ class Dog extends Bonalos {
 public class Abstract {
     public static void main(String[] args) {
         Dog dog = new Dog("Buddy", 3);
-        bird.makeSound(); // print diri Woof Woof
+        Dog makeSound(); // print diri Woof Woof
     }
 }
