@@ -1,12 +1,12 @@
 // Base class
-class Ode {
+class AngeJel {
     void makeSound() {
         System.out.println("Some sound");
     }
 }
 
 // Derived class
-class Dog extends Ode {
+class Dog extends AngeJel {
     @Override
     void makeSound() {
         System.out.println("Woof");
@@ -14,7 +14,7 @@ class Dog extends Ode {
 }
 
 // Another derived class
-class Cat extends Ode {
+class Cat extends AngeJel {
     @Override
     void makeSound() {
         System.out.println("Meow");
@@ -25,8 +25,8 @@ class Cat extends Ode {
 public class polymorphism {
     public static void main(String[] args) {
         // Creating objects 
-        Ode myDog = new Dog();
-        Ode myCat = new Cat();
+        AngeJel myDog = new Dog();
+        AngeJel myCat = new Cat();
 
         // Demonstrating polymorphism
         myDog.makeSound(); //  Woof

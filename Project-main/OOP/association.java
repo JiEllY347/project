@@ -13,18 +13,18 @@ class Fruit {
     }
 }
 
-// Class representing Gerald
-class Gerald {
+// Class representing Kuda
+class Kuda {
     private Fruit favoriteFruit;
 
     // Constructor
-    public Gerald(Fruit favoriteFruit) {
+    public Kuda(Fruit favoriteFruit) {
         this.favoriteFruit = favoriteFruit;
     }
 
     // Method to get the favorite fruit
     public void showFavoriteFruit() {
-        System.out.println("Gerald's favorite fruit is: " + favoriteFruit.getName());
+        System.out.println("Kuda's favorite fruit is: " + favoriteFruit.getName());
     }
 }
 
@@ -32,18 +32,18 @@ class Gerald {
 public class association {
     public static void main(String[] args) {
         // Creating Fruit objects
-        Fruit apple = new Fruit("Apple");
-        Fruit banana = new Fruit("Banana");
-        Fruit orange = new Fruit("Orange");
+        Fruit watermelon = new Fruit("Watermelon");
+        Fruit manggo = new Fruit("Manggo");
+        Fruit avocado = new Fruit("Avocado");
 
         // Creating Gerald object with an associated favorite fruit
-        Gerald geraldWithApple = new Gerald(apple);
-        Gerald geraldWithBanana = new Gerald(banana);
-        Gerald geraldWithOrange = new Gerald(orange);
+        Kuda kudaWithWatermelon = new Kuda(watermelon);
+        Kuda kudaWithManggo = new Kuda(manggo);
+        Kuda kudaWithAvocado = new Kuda(avocado);
 
         // Demonstrating association
-        geraldWithApple.showFavoriteFruit();  // Outputs: Gerald's favorite fruit is: Apple
-        geraldWithBanana.showFavoriteFruit(); // Outputs: Gerald's favorite fruit is: Banana
-        geraldWithOrange.showFavoriteFruit(); // Outputs: Gerald's favorite fruit is: Orange
+        kudaWithWatermelon.showFavoriteFruit();  // Outputs: Kuda's favorite fruit is: Watermelon
+        kudaWithManggo.showFavoriteFruit(); // Outputs: Kuda's favorite fruit is: Manggo
+        kudaWithAvocado.showFavoriteFruit(); // Outputs: Kuda's favorite fruit is: Avocado
     }
 }

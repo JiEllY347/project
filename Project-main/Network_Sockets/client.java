@@ -19,7 +19,7 @@ public class client {
 
             // Receive response from the server
             String responseFromServer = input.readLine();
-            System.out.println("Received from server: " + responseFromServer);
+            System.out.println("Receive response from the server: " + responseFromServer);
 
             // Close resources
             input.close();

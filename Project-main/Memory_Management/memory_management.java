@@ -21,9 +21,9 @@ public class memory_management {
 
     public static void main(String[] args) {
         // Memory Allocation
-        Person person1 = new Person("Jielly", 18);
-        Person person2 = new Person("Angel", 19);
-
+        Person person1 = new Person("Jielly",18);
+        Person person2 = new Person("Angelica",19);
+       
         // Displaying object details
         person1.display();
         person2.display();
@@ -31,7 +31,6 @@ public class memory_management {
         // Memory De-allocation: Dereferencing the objects
         person1 = null;  
         person2 = null;  
-
         
         System.gc();  
 
@@ -40,6 +39,7 @@ public class memory_management {
     }
 
     // Overriding finalize
+    @SuppressWarnings("deprecation")
     @Override
     protected void finalize() throws Throwable {
         System.out.println("An object is being garbage collected!");

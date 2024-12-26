@@ -69,7 +69,7 @@ public class Serialization {
 
     public static void main(String[] args) {
         // Create a Person object
-        Person person1 = new Person("John Doe", 30);
+        Person person1 = new Person("Jielly Abao", 30);
         
         // Serialize the object
         serializeObject(person1);

@@ -17,6 +17,7 @@ public class JavaCollection{
         
         
         Collections.sort(list);
+        
         System.out.println("Sorted List: " + list);
 
         
@@ -24,7 +25,7 @@ public class JavaCollection{
         System.out.println("List after modification: " + list);
 
         
-        list.remove("Yellow");  
+        list.remove("Yello");  
         System.out.println("List after deletion: " + list);
 
         
@@ -55,7 +56,7 @@ public class JavaCollection{
         }
 
         // 10. Deleting an entry from the Map
-        map.remove("Violet");  // Removing key "Violet"
+        map.remove("Violet");  // Removing key "Banana"
         System.out.println("Map after deletion: " + map);
 
         // 11. Create a Queue (LinkedList) and perform operations

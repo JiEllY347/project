@@ -34,8 +34,8 @@ class Company {
 public class composition {
     public static void main(String[] args) {
         // Creating a Company object
-        Company company1 = new Company("TechCorp", "Marvin Bonalos");
-        Company company2 = new Company("Innovate", "Bini Colet");
+        Company company1 = new Company("SmEnt", "Jielly Abao");
+        Company company2 = new Company("BigHit", "Angelica Kudera");
 
         // Demonstrating composition
         company1.showCompanyInfo(); 

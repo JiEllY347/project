@@ -1,10 +1,10 @@
-class Ode {
+class Abs {
     // Private field
     private String breed;
     private String name;
     private int age;
 
-    Ode(String name, int age, String breed) {
+    Abs(String name, int age, String breed) {
         this.name = name;
         this.age = age;
         this.breed = breed;
@@ -26,7 +26,7 @@ class Ode {
 
 public class Encapsulation {
     public static void main(String[] args) {
-        Ode ode = new Ode("Buddy", 3, "Golden Ode");
-        System.out.println("Dog breed: " + ode.getBreed()); // Mo print Dog breed: Golden Ode
+        Abs abs = new Abs("Buddy", 3, "Shiwawa ");
+        System.out.println("Dog breed: " + abs.getBreed()); // Mo print Dog breed: Shiwawa
     }
 }
