@@ -1,6 +1,6 @@
 // AngeJel class
 //values sa constructor sa AngeJel class
-abstract class AngeJel {
+abstract class Bonalos {
     String name;
     int age;
 
@@ -14,22 +14,22 @@ abstract class AngeJel {
 }
 
 // Concrete class extending AngeJel class
-class Bird extends AngeJel {
+class Dog extends Bonalos {
 
-    Bird(String name, int age) {
+    Dog(String name, int age) {
         super(name, age);
     }
 
     // diri implementation sa AngeJel class
     @Override
     void makeSound() {
-        System.out.println("Tweet Tweet");
+        System.out.println("Woof Woof");
     }
 }
 
 public class Abstract {
     public static void main(String[] args) {
-        Bird bird = new Bird("Adi", 5);
-        bird.makeSound(); // print diri Tweet Tweet
+        Dog dog = new Dog("Buddy", 3);
+        bird.makeSound(); // print diri Woof Woof
     }
 }
