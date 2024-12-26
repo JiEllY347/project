@@ -14,7 +14,7 @@ public class client {
             PrintWriter output = new PrintWriter(socket.getOutputStream(), true);
 
             // Send a message to the server
-            String messageToSend = "Hello from Client!";
+            String messageToSend = "Hello sir!";
             output.println(messageToSend);
 
             // Receive response from the server
